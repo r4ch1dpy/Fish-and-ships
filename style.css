@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "opensans";
+    src: url(../font/Open_Sans/OpenSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: "slabo";
+    src: url(../font/Slabo_27px/Slabo27px-Regular.ttf);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  h2,
+  h3,
+  h4,
+  nav,
+  button {
+    font-family: "slabo";
+  }
+  body {
+    background-image: url(./img/fond.png);
+    font-family: "opensans";
+  }
+  /* NAVBAR *******************/
+  body > header {
+    background-color: #25b3b4;
+    border-top: solid #2b9aa0 5px;
+    border-bottom: solid #2b9aa0 5px;
+    text-align: center;
+    margin-top: 60px;
+  }
+  nav ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1em;
+  }
+  /* main *********************/
+  main {
+    min-width: 800px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  /*section1********************/
+  #section1 {
+    width: 60%;
+    text-align: center;
+    color: #454a54;
+    margin: 50px auto;
+  }
+  #section1 p {
+    margin-bottom: 15px;
+    font-family: "opensans";
+  }
+  #section1 h2 {
+    margin: 20px;
+  }
+  /* section2 *****************/
+  #section2 {
+    width: 65%;
+    padding: 10px;
+    /* margin-top: 50px; */
+    display: inline-block;
+    background-color: #b6dedc;
+    text-align: center;
+  }
+  #section2>header>h2{
+    font-size: 3.5em;
+  }
+  /* articles ********/
+  article {
+    width: 45%;
+    display: inline-block;
+    text-align: justify;
+    vertical-align: top;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  article img {
+    float: left;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  article h4 {
+    color: rgb(61, 59, 59);
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px auto;
+  }
+  article>h4>i,
+  section h2 > span {
+    color: #25b3b4;
+  }
+  button{
+    float: right;
+    color: white; 
+    background-color: #25b3b4;
+    padding: 10px 20px;
+    border: transparent;
+    margin-top: 20px;
+  }
+  /* aside ******/
+  aside {
+    width:20%;
+    display: inline-block;
+    background-color: #34b1b2;
+    border: 5px solid #2b9aa0;
+    padding: 20px;
+    padding-bottom: 80px;
+    margin-left: 10px;
+    vertical-align: top;
+    color:#fff;
+    position: relative;
+  }
+  aside img {
+    position: absolute;
+    top: -50px;
+    right: -80px;
+  }
+  #news{
+    font-size: 1.4em;
+  }
+  h4 span,
+  h5 {
+  color: #b6dedc;
+  padding: 10px;
+  }
+  div {
+    display:block;
+  }
+  /* footer  *******/
+  footer {
+    margin: 0 auto;
+    width: 80%;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  footer img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+  }
+ 
+  
